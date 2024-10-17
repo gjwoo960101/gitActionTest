@@ -4,6 +4,7 @@ services:
     image: gjwoo96/deploytest:latest
     ports:
       - 12345:80
+      
   watchtower:
     container_name: my-watchtower
     image: containrrr/watchtower
